@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+import PrimarySearchAppBar from "./Components/PrimarySearchAppBar";
+
+ReactDOM.render(<PrimarySearchAppBar />, document.querySelector("#root"));
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

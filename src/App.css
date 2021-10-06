@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+img{
+	display: block;
+  padding: 15px;
+	margin: auto;
+
+}
+
+  .cards {
+    padding: 10px;
+      border: thin solid var(--dark-color);
+      margin:5px
+    }
+
+  .card {
+      display: inline-block;
+      padding: 20px;
+      background-color: var(--dark-color);
+      color: var(--yellow-color);
+      margin: 8px
+    }
+
+h1{
+	background: #222;
+	margin: 0;
+	padding: 10px;
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+}
+
+h2{
+  margin: 10px
+}
+h3{
+	background: #222;
+	margin: 0;
+	padding: 10px;
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+}
